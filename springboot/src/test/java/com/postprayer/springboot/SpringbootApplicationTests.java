@@ -1,10 +1,10 @@
-package com.postprayer.backend;
+package com.postprayer.springboot;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BackendApplicationTests {
+class SpringbootApplicationTests {
 
 	@Test
 	void contextLoads() {
