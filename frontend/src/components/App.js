@@ -8,8 +8,12 @@ function App() {
     return (
         <div>
             <Header pageTitle="PrayerPost with JWT" logoSrc = {logo}></Header>
-            <div>
-            <AppContent></AppContent>
+            <div className='container-fluid'>
+                    <div className="row" >
+                        <div className='col'>
+                            <AppContent></AppContent>
+                    </div>
+                </div>
             </div>
         </div>
     )
